@@ -2,11 +2,15 @@
 
 ## Project Overview
 
-Following federal performance-based planning guidance, we've developed a dashboard to monitor and track key performance measures. This centralized platform visualizes raw data into charts, enabling users to easily track performance indicators, identify trends, and detect anomalies. The dashboard provides a high-level overview, allowing for effortless comparison to historical data and industry benchmarks. By presenting complex data in a clear format, it facilitates stakeholder communication, highlights opportunities and issues, and informs data-driven decision-making.
+This R Shiny dashboard offers a comprehensive platform to analyze trends in traffic congestion and system reliability from 2018-2020, including metrics such as BTI, TTI, PTI, severity, and variability. It also examines shifts in environmental justice populations between 2013 and 2022, focusing on demographics like poverty, disability, limited car access, elderly, young, and limited English proficiency. By integrating census and traffic data, the dashboard provides insights into how congestion and reliability issues impact environmental justice communities, highlighting areas of concern and informing policy decisions to promote equity and reduce disparities. Users can explore temporal trends, comparative analysis, and correlations to better understand the complex relationships between traffic patterns and community characteristics.
 
-We've developed an interactive dashboard using React.js and D3.js, offering a streamlined view of key indicators across Economy, Community, and Transportation. With simple navigation, users can explore tailored charts for each section. Economy insights include Business Formations, GDP, and Job Growth. Community data covers Educational Attainment and Population Growth. Transportation highlights Bridge Conditions, Commute Mode, and Miles Driven. Hosted on Netlify, this dashboard provides easy access to essential data, enabling a deeper understanding of regional trends.
+Attached are static snapshots of the dashboard, showing Congestion, Reliability, and Environmental Justice. For the full interactive experience, access the live version [here](https://r0nitz-sarki.shinyapps.io/dash_arc_deploy/)
 
-Attached are static snapshots of the dashboard. For the full interactive experience, access the live version [here](https://minimal-dash.netlify.app/)
+#### Congestion
+![fc1](https://github.com/user-attachments/assets/46ef5d50-f969-4971-af8f-3245effe71a8)
 
-![1_react_dash](https://github.com/user-attachments/assets/ed8065d4-b203-4f23-a0ee-930958cfe405)
+#### Reliability
+![fc2](https://github.com/user-attachments/assets/2c7b8598-560a-4f93-a2ee-3c4d85fa2be2)
 
+#### Environmental Justice
+![fc4](https://github.com/user-attachments/assets/906c9f04-5b96-4e7c-929a-6136ca21c6cb)
